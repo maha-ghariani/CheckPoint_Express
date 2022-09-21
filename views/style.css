@@ -1,0 +1,74 @@
+/* style navBar */
+.container {
+    
+    box-shadow: -3px -3px 20px 20px rgb(240, 240, 240);
+    background-color :orange
+}
+a {
+    text-decoration:none;
+    color :white;
+    font-size:23px
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-Content: space-around;
+    padding-top:10px;
+    height :40px;
+}
+/* style de la page contact */
+.wrapper{
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.422);
+     width: 750px;
+     height:580px;
+      margin-left:380px;
+      margin-top:31px;
+      padding-top:20px;
+ 
+
+   }
+   .myForm {
+        display: flex;
+        flex-direction: column;
+        padding-top:10px;
+          width: 320px;
+          margin-left:130px;
+          margin-top:50px
+       
+    }
+    input{
+        margin-bottom:20px;
+        border-radius:8px;
+      height:36px;
+      width: 500px;
+      border-width: 1px;
+    }
+    h1{
+        font-size:50px;
+       margin-left:250px ;
+       margin-bottom:30px
+    }
+    #theTextarea{
+        border-radius:8px;
+        width: 480px;
+        
+    }
+    button{
+        width: 160px;
+        height:47px;
+        background-color:dodgerblue;
+border-radius: 7px;
+margin-top: 45px;
+margin-left: 150px;
+color: aliceblue;
+font-size: 18px;  
+border-style: none;  }
+button:hover{
+    cursor: pointer;
+}
+/* style de la page contact */
+.service{
+    margin-top: 90px;
+    font-size: 45px;
+}
